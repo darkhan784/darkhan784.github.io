@@ -1,0 +1,269 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ff4569;
+    scroll-behavior: smooth;
+    font-size: 15px;
+    font-family: Indie Flower;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     background-color: #834bff;
+     scroll-behavior: smooth;
+ }
+.header-wrapper {
+    background-color: inherit;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.header h1 {
+    margin: 0 0 0 100px;
+    color: white;
+    font-weight: normal;
+}
+
+.top-nav {
+    margin: 0 100px 0 0;
+    height: 100%;
+}
+
+.top-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 24px;
+    transition-duration: 0.3s;
+}
+
+.top-nav li:hover {
+    background-color: #689AD3;
+}
+
+.main {
+    margin: 80px 25% 0 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main article {
+    font-size: 30px;
+    height: 100%;
+    color: white;
+    margin: auto 0 auto 0;
+}
+
+.main article button {
+    background-color: #f57c00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+.main article button:hover {
+    color: whitesmoke;
+    background-color: #ffa733;
+}
+
+.brief {
+    margin: 100px auto 0 auto;
+    font-size: 24px;
+    width: 66%;
+    color: white;
+}
+
+.brief .highlight {
+    font-weight: bold;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 66%;
+    margin: 100px auto 0 auto;
+}
+
+blockquote p:first-child:before {
+    content: open-quote;
+}
+
+blockquote p:first-child:after {
+    content: close-quote;
+}
+
+.blocks ul {
+    padding: 0;
+}
+
+.blocks li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 32%;
+}
+
+.blocks blockquote {
+    margin: 20px 0 20px 0;
+    padding: 0 20px 0 20px;
+}
+
+.blocks article {
+    color: white;
+    font-size: 24px;
+}
+
+.blocks img {
+    display: block;
+    border-radius: 20%;
+    height: 200px;
+    margin: auto;
+}
+
+.full-description {
+    margin: 100px 0 0;
+    color: white;
+    font-size: 24px;
+}
+
+.full-description p, .full-description li {
+    margin: auto;
+    width: 66%;
+    font-size: 22px;
+}
+
+.full-description h3 {
+    margin: 0 auto 10px auto;
+    width: 66%;
+}
+
+.feedback {
+    margin: 100px 0 0 0;
+    color: white;
+    font-size: 24px;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-size: 24px;
+}
+
+.feedback form label {
+    width: 100%;
+}
+
+.feedback form input, .feedback form textarea {
+    margin: 0 0 10px 0;
+    padding: 15px 15px 15px 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.feedback h3 {
+    margin: 0 auto 10px auto;
+    width: 66%;
+}
+
+.feedback input[type=submit] {
+    background-color: #689AD3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+.feedback input[type=submit]:hover {
+    color: #689AD3;
+    background-color: white;
+}
+
+.footer {
+    margin: 100px auto 0 auto;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    width: 66%;
+}
+
+.footer h3 {
+    margin: 0 auto 10px auto;
+}
+
+.footer section {
+    width: 66%;
+    margin: 0 auto 0 auto;
+    font-size: 22px;
+    flex: 50%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.social h3 {
+    flex: 0 0 100%;
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.footer img {
+    display: block;
+    height: 50px;
+    margin: 0 20px 0 0;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing page</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header with logo and navigation -->
+    <div class="header-wrapper">
+      <header id="header" class="header">
+        <h1>
+          <a href="#">How to sell cookies online(fast)</a>
+        </h1>
+        <nav>
+          <ul class="top-nav">
+            <li>
+              <a href="#">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#feedback">
+                Contact us
+              </a>
+            </li>
+
+            <li>
+              <a href="#company">
+                About us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- Главная + call to action -->
+    <main id="main">
+      <section class="main">
+        <img src="./images/cookie.png" alt="Cookies image">
+        <article>
+          <p>If you purchase three packs, you will receive the fourth as a gift!!!</p>
+          <p>Only 4.99$ for pack</p>
+          <button onclick="location.href='#feedback'" type="button">Give me my cookies</button>
+        </article>
+      </section>
+
+      <!-- Brief description -->
+      <section id="brief-description" class="brief">
+        <h2>
+
+        </h2>
+
+        <p>
+
+        </p>
+
+        <h3>
+
+        </h3>
+
+
+      </section>
+
+      <!-- Block with 3 highlighted elements -->
+      <section id="blocks" class="blocks">
+        <ul>
+          <li>
+            <article>
+              <img src="./images/harold.png" alt="Sad Harold photo">
+              <blockquote>
+                <p>I liked the cookies so much that without them I'm so sad</p>
+                <p>
+                  Sad Harold
+                </p>
+              </blockquote>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <img src="./images/granny.png" alt="Granny photo">
+              <blockquote>
+                <p>Even my cookies are not so tasty</p>
+                <p>
+                  Grandma SquarePants
+                </p>
+              </blockquote>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <img src="./images/sage.png" alt="Donald Trump photo">
+              <blockquote>
+                <p>The best cookies in the universe</p>
+                <p>
+                Sage a.k.a. Keanu Reeves
+                </p>
+              </blockquote>
+            </article>
+          </li>
+
+        </ul>
+      </section>
+
+      <!-- Full description -->
+      <section id="full-description" class="full-description">
+        <h3>Description</h3>
+        <p>
+          What’s inside the box is super tasty,
+          but it’s the amazing experiences that happen outside the cookie box that make Girl Scout Cookies® extra special.
+          When you make a Girl Scout Cookie purchase,
+          you’re helping the next generation of young female entrepreneurs get an important taste of what it takes to be
+          successful—teamwork, planning, and a positive outlook (and that’s just the beginning).
+        </p>
+        <ul>
+          <li>All cookies are made with love.</li>
+          <li>All cookies are made by hand.</li>
+          <li>Only natural products are used.</li>
+          <li>60% of the proceeds will be spent on charity</li>
+          <li>It will be the most unforgettable baking of your life</li>
+        </ul>
+      </section>
+
+      <!-- Feedback with input and textarea -->
+      <section id="feedback" class="feedback">
+        <h3>Contact us</h3>
+        <form method="post" action="#feedback">
+          <label for="form_name">Your name:</label>
+          <input type="text" placeholder="Please enter your name" id="form_name" name="name">
+
+          <label for="form_email">Email:</label>
+          <input type="email" placeholder="example@mail.com" id="form_email" name="email">
+
+          <label for="form_text">Message:</label>
+          <textarea minlength="10" maxlength="1024" id="form_text" placeholder="Your message here"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+
+    <!-- About us and contacts -->
+    <footer id="company" class="footer">
+      <section id="about">
+        <h3>About us</h3>
+        <p>
+          Rakhat AO, Almaty, Kazakhastan
+        </p>
+        <p>
+          Phone: <a href="tel:+77777777777">+77777777777</a>
+        </p>
+        <p>
+          Email: <a href="mailto:mail@rakhat.kz">mail@rakhat.kz</a>
+        </p>
+      </section>
+
+      <!-- 3-4 link icons to social networks -->
+      <section id="social" class="social">
+        <h3>Socials</h3>
+
+        <ul>
+          <li>
+            <a href="#"><img src="./images/vklogo.png" alt="vk logo"></a>
+          </li>
+
+          <li>
+            <a href="#"><img src="./images/twitter.png" alt="twitter logo"></a>
+          </li>
+
+          <li>
+            <a href="#"><img src="./images/inst.png" alt="instagram logo"></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
