@@ -1,0 +1,50 @@
+.header {
+    background-color: #333336;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline;
+}
+
+.h-list {
+    text-align: center;
+    list-style: none;
+}
+
+#pokemontab {
+    margin: 0 3%;
+}
+
+.h-element {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.h-list li {
+    width: 250px;
+}
+
+.h-list a {
+    text-decoration: none;
+    color: white;
+    font-family: Lexend Deca, sans-serif;
+    padding: 8px;
+
+}
+
+.tabs {
+    border-radius: 10px;
+}
+
+body {
+    background-color: #222226;
+}
+
+#main {
+    display: block;
+    margin-top: 100px;
+}
